@@ -1,12 +1,4 @@
----
-title: 我知道的JS-DOM
-date: 2018-04-20 17:30:00
-tags: [JavaScript]
-categories: ["Javascript"]
-cover_img: https://ws1.sinaimg.cn/large/006tNbRwly1fy1lxezoixj30wg0mzkjl.jpg
----
-
-# DOM
+# 我知道的 JS-DOM
 
 > DOM 是 JavaScript 操作网页的接口，全称为“文档对象模型”（Document Object Model）。它的作用是将网页转为一个 JavaScript 对象，从而可以用脚本进行各种操作（比如增删内容）。
 
@@ -25,9 +17,7 @@ DocumentFragment：文档的片段
 
 <!--more-->
 
-
-
-## 操作DOM
+## 操作 DOM
 
 ```js
 document.getElementById()
@@ -74,8 +64,6 @@ element.currentStyle
 
 
 ```
-
-
 
 ## 事件模型
 

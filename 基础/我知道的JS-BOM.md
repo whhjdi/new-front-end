@@ -1,12 +1,4 @@
----
-title: 我知道的JS-BOM
-date: 2018-04-22 23:07:16
-tags: [JavaScript]
-categories: ["Javascript"]
-cover_img: https://ws2.sinaimg.cn/large/006tNbRwly1fy1lwszlsyj31jk0r8x6p.jpg
----
-
-# BOM
+# 我知道的 JS-BOM
 
 BOM（浏览器对象模型）是浏览器本身的一些信息的设置和获取，例如获取浏览器的宽度、高度，设置让浏览器跳转到哪个地址
 

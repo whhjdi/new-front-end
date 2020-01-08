@@ -1,12 +1,4 @@
----
-title: 天马行空的CSS（二）
-date: 2018-03-15 17:27:12
-tags: [CSS]
-categories: ["css"]
-cover_img: https://ws1.sinaimg.cn/large/006tNbRwly1fy1m2svp2qj31hc0u01kx.jpg
----
-
-# CSS
+# 天马行空的 CSS（二）
 
 ## BFC
 
@@ -28,9 +20,8 @@ cover_img: https://ws1.sinaimg.cn/large/006tNbRwly1fy1m2svp2qj31hc0u01kx.jpg
 ### 堆叠顺序
 
 ```html
-负z-index < bg < border < div/块级元素 < 浮动元素 <
-文字/内联元素 < z-index:0/auto < +z-index
-后出现的盖住原来的,只有被定位的元素才能用z-index
+负z-index < bg < border < div/块级元素 < 浮动元素 < 文字/内联元素 <
+z-index:0/auto < +z-index 后出现的盖住原来的,只有被定位的元素才能用z-index
 ```
 
 ## 图标的做法
@@ -82,5 +73,5 @@ div {
 ```
 
 ```html
-<link rel="stylesheet" href="" media="only screen and(max-width:320px;)">
+<link rel="stylesheet" href="" media="only screen and(max-width:320px;)" />
 ```

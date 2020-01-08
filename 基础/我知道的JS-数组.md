@@ -1,12 +1,4 @@
----
-title: 我知道的JS-数组
-date: 2018-04-20 21:44:56
-tags: [JavaScript]
-categories: ["Javascript"]
-cover_img: https://ws4.sinaimg.cn/large/006tNbRwly1fy1lzv6pntj30rs0h719e.jpg
----
-
-# 数组
+# 我知道的 JS-数组
 
 ## 数组去重
 
@@ -18,7 +10,31 @@ cover_img: https://ws4.sinaimg.cn/large/006tNbRwly1fy1lzv6pntj30rs0h719e.jpg
 function unique(arr) {
   return Array.from(new Set(arr));
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 //[1, "true", true, 15, false, undefined, null, NaN, "NaN", 0, "a", {}, {}]
 ```
@@ -42,7 +58,31 @@ function unique(arr) {
   }
   return arr;
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 //[1, "true", 15, false, undefined, NaN, NaN, "NaN", "a", {…}, {…}] //NaN 和{}没有去重，两个 null 直接消失了
 ```
@@ -66,7 +106,31 @@ function unique(arr) {
   }
   return array;
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 // [1, "true", true, 15, false, undefined, null, NaN, NaN, "NaN", 0, "a", {…}, {…}] //NaN、{}没有去重
 ```
@@ -90,7 +154,31 @@ function unique(arr) {
   }
   return arrry;
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 // [0, 1, 15, "NaN", NaN, NaN, {…}, {…}, "a", false, null, true, "true", undefined] //NaN、{}没有去重
 ```
@@ -117,7 +205,31 @@ function unique(arr) {
   }
   return arrry;
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 //[1, "true", 15, false, undefined, null, NaN, 0, "a", {…}] //true 和 false 直接消失了，NaN 和{}去重了
 ```
@@ -139,7 +251,31 @@ function unique(arr) {
   }
   return array;
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 //[1, "true", true, 15, false, undefined, null, NaN, "NaN", 0, "a", {…}, {…}] //{}没有去重
 ```
@@ -155,7 +291,31 @@ function unique(arr) {
       : (obj[typeof item + item] = true);
   });
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 //[1, "true", true, 15, false, undefined, null, NaN, "NaN", 0, "a", {…}] //所有的都去重了
 ```
@@ -171,7 +331,31 @@ function unique(arr) {
     return arr.indexOf(item, 0) === index;
   });
 }
-var arr = [1,1,'true','true',true,true,15,15,false,false, undefined,undefined, null,null, NaN, NaN,'NaN', 0, 0, 'a', 'a',{},{}];
+var arr = [
+  1,
+  1,
+  "true",
+  "true",
+  true,
+  true,
+  15,
+  15,
+  false,
+  false,
+  undefined,
+  undefined,
+  null,
+  null,
+  NaN,
+  NaN,
+  "NaN",
+  0,
+  0,
+  "a",
+  "a",
+  {},
+  {}
+];
 console.log(unique(arr));
 //[1, "true", true, 15, false, undefined, null, "NaN", 0, "a", {…}, {…}]
 ```

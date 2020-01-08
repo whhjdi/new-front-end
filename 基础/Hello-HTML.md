@@ -1,10 +1,4 @@
----
-title: Hello-HTML
-date: 2018-03-03 11:55:57
-tags: [HTML]
-categories: ["html"]
-cover_img: https://ws3.sinaimg.cn/large/006tNbRwly1fxzdw01bysj30u011ib29.jpg
----
+# HTML
 
 ## 如何理解 HTML 的语义化
 

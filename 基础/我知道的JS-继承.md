@@ -1,12 +1,4 @@
----
-title: 我知道的JS-继承
-date: 2018-04-10 22:49:21
-tags: [JavaScript]
-categories: ["Javascript"]
-cover_img: https://ws3.sinaimg.cn/large/006tNbRwly1fy1m17r3gyj30qe0ipwrf.jpg
----
-
-## 继承
+## 我知道的 JS-继承
 
 继承可以使得子类具有父类的各种属性和方法
 在高程中介绍了好多种，但是完美的就这一种，所以，就理解好这一种就可以了

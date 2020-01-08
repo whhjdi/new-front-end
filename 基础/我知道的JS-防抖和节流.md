@@ -1,12 +1,4 @@
----
-title: 我知道的JS-防抖和节流
-date: 2018-04-05 22:34:16
-tags: [JavaScript]
-categories: ["Javascript"]
-cover_img: https://ws4.sinaimg.cn/large/006tNbRwly1fy1m1pxemoj315o0q21kx.jpg
----
-
-# 防抖和节流
+# 我知道的 JS-防抖和节流
 
 之前一直不明白或者弄混两者，也是因为没有遇到这种需求
 作用：都是防止函数多次调用
@@ -23,14 +15,14 @@ input 输入的格式验证
 延迟执行的防抖函数
 
 ```javascript
-function debounce(fn,time){
-  let timer = null
-  return function(...args){
-    clearTimeout(timer)
-    setTimeout(()=>{
-      fn.call(this,...args)
-    },time)
-  }
+function debounce(fn, time) {
+  let timer = null;
+  return function(...args) {
+    clearTimeout(timer);
+    setTimeout(() => {
+      fn.call(this, ...args);
+    }, time);
+  };
 }
 ```
 
@@ -41,15 +33,15 @@ function debounce(fn,time){
 适合用于动画相关的场景
 
 ```javascript
-function throttle(fn,time){
-  let flag = true
-  return function(...args){
-    if(!flag) return ;
-    flag = false
-    setTimeout(()=>{
-      fn.call(this,...args)
-      flag = true
-    },time)
-  }
+function throttle(fn, time) {
+  let flag = true;
+  return function(...args) {
+    if (!flag) return;
+    flag = false;
+    setTimeout(() => {
+      fn.call(this, ...args);
+      flag = true;
+    }, time);
+  };
 }
 ```

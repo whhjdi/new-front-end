@@ -1,12 +1,4 @@
----
-title: 我知道的JS-原型
-date: 2018-04-04 15:47:45
-tags: [JavaScript]
-categories: ["Javascript"]
-cover_img: https://ws1.sinaimg.cn/large/006tNbRwly1fy1lym00xbj313i0m8npd.jpg
----
-
-# 原型
+# 我知道的 JS-原型
 
 每个函数都有 prototype 属性，除了 Function.prototype.bind()这个特殊的函数
 
@@ -59,17 +51,15 @@ var actor = _new(Person, "张三", 28);
 
 ```javascript
 function instanceof(left, right) {
-    // 获得类型的原型
-    let prototype = right.prototype
-    // 获得对象的原型
-    left = left.__proto__
-    // 判断对象的类型是否等于类型的原型
-    while (true) {
-        if (left === null)
-            return false
-        if (prototype === left)
-            return true
-        left = left.__proto__
-    }
+  // 获得类型的原型
+  let prototype = right.prototype;
+  // 获得对象的原型
+  left = left.__proto__;
+  // 判断对象的类型是否等于类型的原型
+  while (true) {
+    if (left === null) return false;
+    if (prototype === left) return true;
+    left = left.__proto__;
+  }
 }
 ```

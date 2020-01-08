@@ -1,29 +1,18 @@
----
-title: 天马行空的CSS（一）
-date: 2018-03-13 12:33:38
-tags: [CSS]
-categories: ["css"]
-cover_img: https://ws2.sinaimg.cn/large/006tNbRwly1fy1m3a4g42j30xc0irnob.jpg
----
-
-# CSS
+# 天马行空的 CSS（一）
 
 ## 文档流
 
 ### 什么是文档流
 
 ```html
-内联元素从左到右排列
-块级元素从上到下排列
-div 的高度是由其内部文档流元素的总和决定的
+内联元素从左到右排列 块级元素从上到下排列 div
+的高度是由其内部文档流元素的总和决定的
 ```
 
 ### 脱离文档流
 
 ```html
-浮动- float:left;
-position: absolute;
-position: fixed;
+浮动- float:left; position: absolute; position: fixed;
 ```
 
 <!--more-->
@@ -45,24 +34,22 @@ position: fixed;
 ### 内联元素的宽高
 
 ```html
-内联元素的高度由行高决定,和 padding 无关
-宽度受 padding,margin,content,border 影响
+内联元素的高度由行高决定,和 padding 无关 宽度受 padding,margin,content,border
+影响
 ```
 
 ### 块级元素的宽高
 
 ```html
-如果子元素是内联元素,高度是所有内联元素行高的和
-如果子元素是块级元素,高度会受 padding,border 影响
-不一定受 margin 影响
+如果子元素是内联元素,高度是所有内联元素行高的和 如果子元素是块级元素,高度会受
+padding,border 影响 不一定受 margin 影响
 ```
 
 ### margin 合并
 
 ```html
-如果父元素没有东西(border,padding)挡住子元素的
-margin,那么子元素的上下 margin 会超出父元素
-这个 margin 会和父元素的 margin 合并,父元素就不会变高,
+如果父元素没有东西(border,padding)挡住子元素的 margin,那么子元素的上下 margin
+会超出父元素 这个 margin 会和父元素的 margin 合并,父元素就不会变高,
 如果父元素有上边框,那么,这个 margin 会使父元素变高
 ```
 
@@ -98,8 +85,8 @@ border,padding,overflow:hidden
 ## 盒模型
 
 ```html
-content-box: width == 内容区宽度
-border-box: width == 内容区宽度 + padding 宽度 + border 宽度
+content-box: width == 内容区宽度 border-box: width == 内容区宽度 + padding 宽度
++ border 宽度
 ```
 
 ### 如何获得宽高

@@ -1,11 +1,3 @@
----
-title: MVC与单向绑定和双向绑定
-date: 2018-08-12 20:38:04
-tags: [MVC]
-categories: ["其他"]
-cover_img: https://ws4.sinaimg.cn/large/006tNbRwly1fxzeangnl0j31hc0u0u11.jpg
----
-
 # MVC
 
 ## MVC 的出现

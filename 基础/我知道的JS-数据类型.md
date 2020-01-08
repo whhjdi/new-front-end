@@ -1,12 +1,4 @@
----
-title: 我知道的JS-数据类型
-date: 2018-04-04 15:17:42
-tags: [JavaScript]
-categories: ["Javascript"]
-cover_img: https://ws1.sinaimg.cn/large/006tNbRwly1fy1lzl0xf9j31040pjb2a.jpg
----
-
-# 前言
+# 我知道的 JS-数据类型
 
 > 原创之处并不优秀,优秀之处并非原创.
 > 良好 JavaScript 基础是前端工程师的赖以生存的基石,有了扎实的 js 基础才能走得更远.

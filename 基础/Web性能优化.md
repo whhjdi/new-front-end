@@ -1,12 +1,3 @@
----
-title: Web性能优化
-date: 2018-06-01 21:42:17
-tags: [性能]
-categories: ["其他"]
-cover_img: https://ws1.sinaimg.cn/large/006tNbRwly1fxzf3u8ps2j31c00u0til.jpg
-feature_img: https://ws3.sinaimg.cn/large/006tNbRwly1fyc5zh6bw9j315k0m2mxz.jpg
----
-
 # Web 性能优化
 
 想要进行优化必须先要了解一个页面从加载到展现的过程中经历了那些过程
