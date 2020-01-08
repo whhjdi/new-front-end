@@ -15,8 +15,6 @@
 浮动- float:left; position: absolute; position: fixed;
 ```
 
-<!--more-->
-
 ### 如何清除浮动
 
 ```css
@@ -55,7 +53,7 @@ padding,border 影响 不一定受 margin 影响
 
 阻止 margin 合并
 
-```html
+```markup
 border,padding,overflow:hidden
 ```
 
@@ -91,16 +89,12 @@ content-box: width == 内容区宽度 border-box: width == 内容区宽度 + pad
 
 ### 如何获得宽高
 
-1、dom.style.width/height
-这种方式只能取到 dom 元素内联样式所设置的宽高，也就是说如果该节点的样式是在 style 标签中或外联的 CSS 文件中 设置的话，通过这种方法是获取不到 dom 的宽高的
+1、dom.style.width/height 这种方式只能取到 dom 元素内联样式所设置的宽高，也就是说如果该节点的样式是在 style 标签中或外联的 CSS 文件中 设置的话，通过这种方法是获取不到 dom 的宽高的
 
-2、dom.currentStyle.width/height
-这种方式获取的是在页面渲染完成后的结果，就是说不管是哪种方式设置的样式，都能获取到，只有 IE 浏览器支持该方式
+2、dom.currentStyle.width/height 这种方式获取的是在页面渲染完成后的结果，就是说不管是哪种方式设置的样式，都能获取到，只有 IE 浏览器支持该方式
 
-3、window.getComputedStyle(dom).width/height
-这种方式的原理和 2 是一样的，这个可以兼容更多的浏览器，通用性好一些
+3、window.getComputedStyle\(dom\).width/height 这种方式的原理和 2 是一样的，这个可以兼容更多的浏览器，通用性好一些
 
-4、 dom.getBoundingClientRect().width/height
-这种方式是根据元素在视窗中的绝对位置来获取宽高的
+4、 dom.getBoundingClientRect\(\).width/height 这种方式是根据元素在视窗中的绝对位置来获取宽高的
 
 5、 dom.offsetWidth/offsetHeight

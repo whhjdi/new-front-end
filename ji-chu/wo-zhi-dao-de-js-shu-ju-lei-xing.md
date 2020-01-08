@@ -1,10 +1,6 @@
 # 我知道的 JS-数据类型
 
-> 原创之处并不优秀,优秀之处并非原创.
-> 良好 JavaScript 基础是前端工程师的赖以生存的基石,有了扎实的 js 基础才能走得更远.
-> 目前我的学习资料有:JavaScript 高级程序设计,阮一峰的 js 教程,你不知道的 JavaScript 上中下三卷,其他优秀博客等......
-
-<!-- more -->
+> 原创之处并不优秀,优秀之处并非原创. 良好 JavaScript 基础是前端工程师的赖以生存的基石,有了扎实的 js 基础才能走得更远. 目前我的学习资料有:JavaScript 高级程序设计,阮一峰的 js 教程,你不知道的 JavaScript 上中下三卷,其他优秀博客等......
 
 ## 数据类型
 
@@ -33,7 +29,7 @@ String({});
 //"[object Object]"
 ```
 
-x.toString()
+x.toString\(\)
 
 ```javascript
 (1).toString()
@@ -72,15 +68,15 @@ var o = {};
 
 任意类型转数字
 
-- Number(x)
-- parseInt(x,10)
-- parseFloat(x)
+- Number\(x\)
+- parseInt\(x,10\)
+- parseFloat\(x\)
 - x-0
 - +x
 
 任意类型转布尔
 
-- Boolean(x)
+- Boolean\(x\)
 - !!x
 - 5 个 falsy 值:
 

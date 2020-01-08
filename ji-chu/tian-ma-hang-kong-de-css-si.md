@@ -2,12 +2,9 @@
 
 ## 布局
 
-[常见的布局 demo](https://github.com/whhjdi/bash_demo/tree/master/layout-demo)
-[预览链接](http://whhjdi.xyz/bash_demo/layout-demo/index.html)
+[常见的布局 demo](https://github.com/whhjdi/bash_demo/tree/master/layout-demo) [预览链接](http://whhjdi.xyz/bash_demo/layout-demo/index.html)
 
 浮动布局，flex 布局，flex 和负 margin 布局定宽或者使用 calc 不定宽等方式基本能实现大多数的布局，在搭配绝对定位等可以实现几乎所有布局
-
-<!--more-->
 
 ## 常见居中方式
 
